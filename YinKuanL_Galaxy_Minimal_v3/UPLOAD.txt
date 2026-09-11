@@ -1,0 +1,10 @@
+Upload these files to the YinKuanL/YinKuanL profile repository:
+
+README.md
+assets/galaxy-hero.png
+assets/nav-research.svg
+assets/nav-direction.svg
+assets/nav-repositories.svg
+
+This version is intentionally minimal and expandable.
+Future research entries can continue as 04 / 05 / 06 without changing the layout.
