@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="40" viewBox="0 0 176 40">
+  <defs>
+    <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B7CFF"/>
+      <stop offset="1" stop-color="#64E1EE"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.75" y="0.75" width="174.5" height="38.5" rx="11"
+        fill="#0A0F1C" stroke="url(#stroke)" stroke-opacity="0.75" stroke-width="1.5"/>
+  <text x="20" y="25.5" fill="#EDF3FB"
+        font-size="12.5" font-weight="600" letter-spacing="1.25"
+        font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">OPEN REPOSITORY</text>
+  <path d="M147 13.5h10v10M146.5 23.5 157 13"
+        fill="none" stroke="#64E1EE" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
