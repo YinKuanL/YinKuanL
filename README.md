@@ -38,20 +38,9 @@ Rather than assuming fixed synchronization or fixed peers, I am interested in sy
 
 `adaptive topology` · `communication efficiency` · `causal collaboration` · `continual learning` · `distributed foundation models`
 
-```text
-                         distributed learning
-                                │
-                  ┌─────────────┼─────────────┐
-                  ▼             ▼             ▼
-                WHEN          WHAT           WHOM
-                  │             │             │
-                  └─────────────┼─────────────┘
-                                ▼
-                    communication as a decision
-                                │
-                                ▼
-                    efficient collective learning
-```
+<div align="center">
+  <img src="./assets/research-direction-flow.gif" width="92%" alt="Research direction flow" />
+</div>
 
 <details>
 <summary><b>Long-term research thread</b></summary>
