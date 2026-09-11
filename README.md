@@ -1,23 +1,24 @@
 <div align="center">
 
 <a href="https://github.com/YinKuanL">
-  <img src="./assets/galaxy-hero.png" width="100%" alt="Yin-Kuan Liang — distributed learning, collaborative intelligence, ML systems" />
+  <img src="./assets/galaxy-hero.png" width="100%" alt="Yin-Kuan Liang — Distributed Learning · Collaborative Intelligence · ML Systems" />
 </a>
 
 <br/><br/>
 
-I study how learning systems decide  
-**when, what, and with whom to communicate.**
+### Distributed Learning · Collaborative Intelligence · ML Systems
+
+I study how learning systems decide **when, what, and with whom to communicate** under resource constraints.
 
 <br/>
 
-<a href="#research">Research</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#current-direction">Current Direction</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="#engineering">Engineering</a>
-&nbsp;&nbsp;·&nbsp;&nbsp;
-<a href="https://github.com/YinKuanL?tab=repositories">All Repositories</a>
+<a href="#research"><img src="./assets/btn-research.svg" height="38" alt="Research"/></a>
+&nbsp;
+<a href="#research-direction"><img src="./assets/btn-direction.svg" height="38" alt="Research Direction"/></a>
+&nbsp;
+<a href="#engineering"><img src="./assets/btn-engineering.svg" height="38" alt="Engineering"/></a>
+&nbsp;
+<a href="https://github.com/YinKuanL?tab=repositories"><img src="./assets/btn-repositories.svg" height="38" alt="All Repositories"/></a>
 
 </div>
 
@@ -25,125 +26,109 @@ I study how learning systems decide
 
 ---
 
-<a id="research"></a>
+<a id="research-direction"></a>
 
-## ✦ Research
+## Research Direction
 
-### 01 — [LFHE](https://github.com/YinKuanL/LFHE)
+My research is centered on **selective communication in distributed learning**:
 
-**Local-first topology adaptation for fully decentralized learning.**
+> **How can learning systems decide when to communicate, what to exchange, and with whom to collaborate?**
 
-Sparse communication neighborhoods evolve from local signals under heterogeneous data and bounded communication.
+I am especially interested in four connected directions:
 
----
+**Adaptive collaboration**  
+Learning sparse or dynamic communication structures instead of assuming fixed neighbors or full connectivity.
 
-### 02 — [Dynamics & Scaling of Local Topology Evolution](https://github.com/YinKuanL/LFHE_workshop2026)
+**Communication-efficient learning**  
+Reducing communication while preserving useful information flow, convergence, and coordination.
 
-**How decentralized learning changes as the system scales.**
+**Continual & causal collaboration**  
+Estimating whether collaboration actually creates future value under distribution shift and evolving tasks.
 
-Population size, data allocation, network mixing, local degree, and communication capacity.
-
----
-
-### 03 — [TA-DVFG](https://github.com/YinKuanL/TA-DVFG)
-
-**Sparse collaboration without representation alignment.**
-
-Heterogeneous graph predictors collaborate through prediction space over a learned sparse topology.
-
-<br/>
-
-<details>
-<summary><b>Research thread ↘</b></summary>
-
-<br/>
+**Distributed foundation models**  
+Extending selective synchronization and adaptive communication to modern neural networks and language-model training.
 
 ```text
-fixed communication
-        │
-        ▼
-learned communication
-        │
-   ┌────┼────┐
-   ▼    ▼    ▼
- WHEN  WHAT  WHOM
-   └────┼────┘
-        ▼
-efficient collective learning
+                    distributed learning
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+          WHEN           WHAT            WHOM
+            │              │              │
+            └──────────────┼──────────────┘
+                           ▼
+               communication as a decision
+                           │
+                           ▼
+               efficient collective learning
 ```
 
-The common question across my work is whether **communication itself can become part of the learning problem**.
+---
+
+<a id="research"></a>
+
+## Research
+
+### 01 · [LFHE](https://github.com/YinKuanL/LFHE)
+**Local topology adaptation for fully decentralized learning.**  
+Sparse communication neighborhoods evolve from local signals under heterogeneous data and bounded communication.
+
+### 02 · [Dynamics & Scaling of Local Topology Evolution](https://github.com/YinKuanL/LFHE_workshop2026)
+**Understanding when local topology evolution continues to scale.**  
+Studies population size, data allocation, graph mixing, degree, and communication capacity.
+
+### 03 · [TA-DVFG](https://github.com/YinKuanL/TA-DVFG)
+**Sparse collaboration without representation alignment.**  
+Heterogeneous graph predictors collaborate through prediction space over a learned sparse topology.
+
+<details>
+<summary><b>How these projects connect</b></summary>
+
+<br/>
+
+`LFHE` asks **who should communicate** in fully decentralized learning.
+
+`TA-DVFG` asks **which collaborators are useful** when predictors are heterogeneous.
+
+My current causal/continual work asks **when collaboration creates future value**.
+
+Together, these projects move toward learning communication policies rather than treating communication as a fixed system assumption.
 
 </details>
 
 <!--
-Future research entry:
-
-### 04 — [Project Name](REPOSITORY_URL)
-
-**One-line research claim.**
-
-One short sentence on the problem and contribution.
--->
-
----
-
-<a id="current-direction"></a>
-
-## ⟡ Current Direction
-
-Exploring distributed training of modern neural networks and language models, with emphasis on:
-
-`selective synchronization` · `communication-efficient training` · `adaptive collaboration` · `continual learning`
-
-> **Communication should be a learned decision, not a fixed assumption.**
-
-<!--
-This section is intentionally short so it can later become:
-- Current Direction
-- Publications
-- Selected Results
-without redesigning the page.
+Future research:
+### 04 · [Project Name](REPOSITORY_URL)
+**One-line contribution.**
+One short sentence.
 -->
 
 ---
 
 <a id="engineering"></a>
 
-## ◌ Engineering
+## Engineering
 
 ### [I/We](https://github.com/YinKuanL/durhackx_2025)
-
-Multi-agent AI collaboration platform.  
-**3rd Place — DurHack 2025**
+Multi-agent AI collaboration platform · **3rd Place, DurHack 2025**
 
 ### [Taiwan Stock Farm](https://github.com/YinKuanL/Taiwan-Stock-Farm)
-
 Full-stack Taiwan equities visualization product.
 
 <details>
-<summary><b>Technical stack ↘</b></summary>
+<summary><b>Technical stack</b></summary>
 
 <br/>
 
-`Python` · `PyTorch` · `NumPy` · `SciPy` · `NetworkX` · `Linux`
-
+`Python` · `PyTorch` · `NumPy` · `SciPy` · `NetworkX` · `Linux`  
 `TypeScript` · `React` · `Next.js` · `Cloudflare Workers` · `Swift`
 
 </details>
-
-<!--
-Future engineering entry:
-
-### [Project Name](REPOSITORY_URL)
-
-One short sentence.
--->
 
 ---
 
 <div align="center">
 
-<sub>learning systems should communicate with purpose.</sub>
+<sub>Communication should be a learned decision, not a fixed assumption.</sub>
 
 </div>
